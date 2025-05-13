@@ -1,0 +1,19 @@
+{"timestamp":"2025-05-11T09:18:55.711539","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-11T09:18:55.714115","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-11T09:19:36.903296Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:19:36.908293Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:19:36.909783Z","level":"info","event":"Current task name:scrape_market","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:19:36.912130Z","level":"info","event":"Dag name:market_scraping","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:18:59.362367","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-11T09:19:36.928288","level":"info","event":"Connection Retrieved 'mongodb_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-11T09:19:48.047056","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-11T09:19:48.048200","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-11T09:19:48.048966","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-11T09:19:48.049271","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-11T09:21:58.130689Z","level":"info","event":"Error saat menjalankan scraping: HTTPConnectionPool(host='localhost', port=41411): Read timed out. (read timeout=120)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:24:02.049936","level":"warning","event":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError(\"HTTPConnectionPool(host='localhost', port=41411): Read timed out. (read timeout=120)\")': /session/66cfc058f300aec6d637589d5b3059cf","logger":"urllib3.connectionpool"}
+{"timestamp":"2025-05-11T09:24:08.133478Z","level":"info","event":"✅ Scraping selesai.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:24:08.254217","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-11T09:24:08.500568Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:24:08.511745Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-11T09:24:08.512340Z","level":"info","event":"Task operator:<Task(PythonOperator): scrape_market>","chan":"stdout","logger":"task"}

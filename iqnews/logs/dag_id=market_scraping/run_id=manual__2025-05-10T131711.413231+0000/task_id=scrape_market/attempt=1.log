@@ -1,0 +1,105 @@
+{"timestamp":"2025-05-10T13:17:23.247903","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-10T13:17:23.273836","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-10T13:17:27.531677Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:17:27.535155Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:17:27.540202Z","level":"info","event":"Current task name:scrape_market","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:17:27.548194Z","level":"info","event":"Dag name:market_scraping","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:17:27.291168","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-10T13:17:27.536998","level":"info","event":"Connection Retrieved 'mongodb_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-10T13:17:32.498373","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-10T13:17:32.510307","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-10T13:17:32.512379","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-10T13:19:47.095298Z","level":"info","event":"Total halaman: 212","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:19:47.118125Z","level":"info","event":"Scraping halaman: http://www.iqplus.info/news/market_news/go-to-page,1.html","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:19:54.804125Z","level":"info","event":"Scraping artikel 1/30: EKOM: OJK CATAT 24 EMITEN BUYBACK SAHAM TANPA RUPS SENILAI Rp937,42 MILIAR","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:32.830675Z","level":"info","event":"Error saat scraping artikel http://www.iqplus.info/news/market_news/ekom-ojk-catat-24-emiten-buyback-saham-tanpa-rups-senilai-rp937-42-miliar,12859573.html: HTTPConnectionPool(host='localhost', port=51141): Read timed out. (read timeout=120)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.959495Z","level":"info","event":"Scraping artikel 2/30: EKOM: KEMENPERIN PERCEPAT DEKARBONISASI INDUSTRI MENUJU TARGET NZE","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.960275Z","level":"info","event":"Error saat scraping artikel http://www.iqplus.info/news/market_news/ekom-kemenperin-percepat-dekarbonisasi-industri-menuju-target-nze,12859127.html: Message: tab crashed","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.961416Z","level":"info","event":"  (Session info: chrome=136.0.7103.92)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.962134Z","level":"info","event":"Stacktrace:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.962950Z","level":"info","event":"#0 0x55c7301eb78a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.963938Z","level":"info","event":"#1 0x55c72fc8def3 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.964920Z","level":"info","event":"#2 0x55c72fc75b4f <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.965641Z","level":"info","event":"#3 0x55c72fc739ef <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.966228Z","level":"info","event":"#4 0x55c72fc7431f <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.966794Z","level":"info","event":"#5 0x55c72fc82f83 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.967759Z","level":"info","event":"#6 0x55c72fc9c5ee <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.968668Z","level":"info","event":"#7 0x55c72fca2e1b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.969436Z","level":"info","event":"#8 0x55c72fc74a30 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.970163Z","level":"info","event":"#9 0x55c72fc9bdf5 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.970727Z","level":"info","event":"#10 0x55c72fd2b17a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.989535Z","level":"info","event":"#11 0x55c72fd05173 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.991796Z","level":"info","event":"#12 0x55c72fcd1d4b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.996544Z","level":"info","event":"#13 0x55c72fcd29b1 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.997379Z","level":"info","event":"#14 0x55c7301b093b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.998908Z","level":"info","event":"#15 0x55c7301b483a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:39.999607Z","level":"info","event":"#16 0x55c730198692 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.000766Z","level":"info","event":"#17 0x55c7301b53c4 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.001542Z","level":"info","event":"#18 0x55c73017d4cf <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.002346Z","level":"info","event":"#19 0x55c7301d9568 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.003559Z","level":"info","event":"#20 0x55c7301d9746 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.063873Z","level":"info","event":"#21 0x55c7301ea5f6 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.065661Z","level":"info","event":"#22 0x7f178af0a1f5 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.066849Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.067783Z","level":"info","event":"Scraping artikel 3/30: EKOM: BIO FARMA DORONG KEMANDIRIAN NASIONAL DALAM PERANG MELAWAN TBC","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.068798Z","level":"info","event":"Error saat scraping artikel http://www.iqplus.info/news/market_news/ekom-bio-farma-dorong-kemandirian-nasional-dalam-perang-melawan-tbc,12858955.html: Message: tab crashed","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.069998Z","level":"info","event":"  (Session info: chrome=136.0.7103.92)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.070928Z","level":"info","event":"Stacktrace:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.071740Z","level":"info","event":"#0 0x55c7301eb78a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.072566Z","level":"info","event":"#1 0x55c72fc8def3 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.073392Z","level":"info","event":"#2 0x55c72fc75b4f <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.074203Z","level":"info","event":"#3 0x55c72fc739ef <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.075571Z","level":"info","event":"#4 0x55c72fc7431f <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.076204Z","level":"info","event":"#5 0x55c72fc82f83 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.254673Z","level":"info","event":"#6 0x55c72fc9c5ee <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.255613Z","level":"info","event":"#7 0x55c72fca2e1b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.256350Z","level":"info","event":"#8 0x55c72fc74a30 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.257004Z","level":"info","event":"#9 0x55c72fc9bdf5 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.258001Z","level":"info","event":"#10 0x55c72fd2b17a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.258740Z","level":"info","event":"#11 0x55c72fd05173 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.259741Z","level":"info","event":"#12 0x55c72fcd1d4b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.262212Z","level":"info","event":"#13 0x55c72fcd29b1 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.263864Z","level":"info","event":"#14 0x55c7301b093b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.264672Z","level":"info","event":"#15 0x55c7301b483a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.265558Z","level":"info","event":"#16 0x55c730198692 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.266158Z","level":"info","event":"#17 0x55c7301b53c4 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.266965Z","level":"info","event":"#18 0x55c73017d4cf <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.267723Z","level":"info","event":"#19 0x55c7301d9568 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.268597Z","level":"info","event":"#20 0x55c7301d9746 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.269346Z","level":"info","event":"#21 0x55c7301ea5f6 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.270092Z","level":"info","event":"#22 0x7f178af0a1f5 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:40.270734Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.229007Z","level":"info","event":"Error saat scraping http://www.iqplus.info/news/market_news/go-to-page,1.html: host.docker.internal:27017: [Errno -3] Temporary failure in name resolution, Timeout: 30s, Topology Description: <TopologyDescription id: 681f51e74f679753ac9ead97, topology_type: Single, servers: [<ServerDescription ('host.docker.internal', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('host.docker.internal:27017: [Errno -3] Temporary failure in name resolution')>]>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.472172Z","level":"info","event":"Scraping halaman: http://www.iqplus.info/news/market_news/go-to-page,2.html","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.473212Z","level":"info","event":"Error saat menjalankan scraping: Message: tab crashed","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.473689Z","level":"info","event":"  (Session info: chrome=136.0.7103.92)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.474151Z","level":"info","event":"Stacktrace:","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.474787Z","level":"info","event":"#0 0x55c7301eb78a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.479006Z","level":"info","event":"#1 0x55c72fc8def3 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.479546Z","level":"info","event":"#2 0x55c72fc75b4f <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.480236Z","level":"info","event":"#3 0x55c72fc739ef <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.480616Z","level":"info","event":"#4 0x55c72fc7431f <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.480870Z","level":"info","event":"#5 0x55c72fc82f83 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.481159Z","level":"info","event":"#6 0x55c72fc9c5ee <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.481495Z","level":"info","event":"#7 0x55c72fca2e1b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.481786Z","level":"info","event":"#8 0x55c72fc74a30 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.482066Z","level":"info","event":"#9 0x55c72fc9bdf5 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.482528Z","level":"info","event":"#10 0x55c72fd2b17a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.482894Z","level":"info","event":"#11 0x55c72fd05173 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.483305Z","level":"info","event":"#12 0x55c72fcd1d4b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.483825Z","level":"info","event":"#13 0x55c72fcd29b1 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.484470Z","level":"info","event":"#14 0x55c7301b093b <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.484890Z","level":"info","event":"#15 0x55c7301b483a <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.485307Z","level":"info","event":"#16 0x55c730198692 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.485706Z","level":"info","event":"#17 0x55c7301b53c4 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.486099Z","level":"info","event":"#18 0x55c73017d4cf <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.486492Z","level":"info","event":"#19 0x55c7301d9568 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.486930Z","level":"info","event":"#20 0x55c7301d9746 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.487341Z","level":"info","event":"#21 0x55c7301ea5f6 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.487732Z","level":"info","event":"#22 0x7f178af0a1f5 <unknown>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.488195Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.488627Z","level":"info","event":"✅ Scraping selesai.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.495563Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.501083Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:24:28.501690Z","level":"info","event":"Task operator:<Task(PythonOperator): scrape_market>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-10T13:23:51.899756","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

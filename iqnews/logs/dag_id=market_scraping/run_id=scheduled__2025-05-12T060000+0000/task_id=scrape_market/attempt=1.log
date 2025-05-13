@@ -1,0 +1,28 @@
+{"timestamp":"2025-05-12T06:01:59.919953","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-12T06:01:59.938034","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-12T06:02:38.239399","level":"error","event":"Process timed out, PID: 276","logger":"airflow.utils.timeout.TimeoutPosix"}
+{"timestamp":"2025-05-12T06:02:38.277486Z","level":"error","event":"Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7f874cdcbe20>","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.277945Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.278253Z","level":"error","event":"  File \"/usr/local/lib/python3.12/weakref.py\", line 369, in remove","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.278539Z","level":"error","event":"    def remove(k, selfref=ref(self)):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.278781Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.279102Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py\", line 69, in handle_timeout","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.279394Z","level":"error","event":"    raise AirflowTaskTimeout(self.error_message)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.284087Z","level":"error","event":"airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/scraping_dag.py after 30.0s.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.285994Z","level":"error","event":"Please take a look at these docs to improve your DAG import time:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.292310Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.0/best-practices.html#top-level-python-code","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.292868Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.0/best-practices.html#reducing-dag-complexity, PID: 276","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-12T06:02:46.381259Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T06:02:46.383551Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T06:02:46.384022Z","level":"info","event":"Current task name:scrape_market","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T06:02:46.385441Z","level":"info","event":"Dag name:market_scraping","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T06:02:38.755684","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-12T06:02:46.383014","level":"info","event":"Connection Retrieved 'mongodb_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-12T06:02:58.471112","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T06:02:58.482603","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T06:02:58.482742","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T06:02:58.482815","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T06:07:34.535094","level":"error","event":"Error saat membuat driver: HTTPConnectionPool(host='localhost', port=33623): Read timed out. (read timeout=120)","logger":"root"}
+{"timestamp":"2025-05-12T06:07:34.535333","level":"error","event":"Error fatal saat menjalankan scraping: HTTPConnectionPool(host='localhost', port=33623): Read timed out. (read timeout=120)","logger":"root"}
+{"timestamp":"2025-05-12T06:07:34.535426","level":"info","event":"✅ Scraping selesai.","logger":"root"}
+{"timestamp":"2025-05-12T06:07:34.537775","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

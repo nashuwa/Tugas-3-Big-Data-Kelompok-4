@@ -1,0 +1,46 @@
+{"timestamp":"2025-05-12T11:44:25.980971","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-12T11:44:26.040141","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-12T11:46:11.074950Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:46:11.084787Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:46:11.085436Z","level":"info","event":"Current task name:scrape_market","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:46:11.087367Z","level":"info","event":"Dag name:market_scraping","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:44:49.828551","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-12T11:46:11.074608","level":"info","event":"Connection Retrieved 'mongodb_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-12T11:46:25.645161","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:46:25.646107","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:46:25.646688","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:46:25.647190","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:46:42.614123","level":"info","event":"Total halaman yang terdeteksi: 209","logger":"root"}
+{"timestamp":"2025-05-12T11:46:42.968396","level":"info","event":"Scraping halaman 1/209: http://www.iqplus.info/news/market_news/go-to-page,1.html","logger":"root"}
+{"timestamp":"2025-05-12T11:46:44.710993","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:46:44.711306","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:46:44.711393","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T11:47:16.760591","level":"info","event":"Ditemukan 30 berita di halaman 1","logger":"root"}
+{"timestamp":"2025-05-12T11:47:16.918367","level":"info","event":"Scraping artikel 1/30 di halaman 1: EKOM: OJK CATAT 24 EMITEN BUYBACK SAHAM TANPA RUPS SENILAI Rp937,42 MILIAR","logger":"root"}
+{"timestamp":"2025-05-12T11:47:17.413335","level":"info","event":"Artikel sudah ada di database: EKOM: OJK CATAT 24 EMITEN BUYBACK SAHAM TANPA RUPS SENILAI Rp937,42 MILIAR","logger":"root"}
+{"timestamp":"2025-05-12T11:47:19.419213","level":"info","event":"Scraping artikel 2/30 di halaman 1: EKOM: KEMENPERIN PERCEPAT DEKARBONISASI INDUSTRI MENUJU TARGET NZE","logger":"root"}
+{"timestamp":"2025-05-12T11:47:19.428819","level":"info","event":"Artikel sudah ada di database: EKOM: KEMENPERIN PERCEPAT DEKARBONISASI INDUSTRI MENUJU TARGET NZE","logger":"root"}
+{"timestamp":"2025-05-12T11:47:21.429405","level":"info","event":"Scraping artikel 3/30 di halaman 1: EKOM: BIO FARMA DORONG KEMANDIRIAN NASIONAL DALAM PERANG MELAWAN TBC","logger":"root"}
+{"timestamp":"2025-05-12T11:47:21.434441","level":"info","event":"Artikel sudah ada di database: EKOM: BIO FARMA DORONG KEMANDIRIAN NASIONAL DALAM PERANG MELAWAN TBC","logger":"root"}
+{"timestamp":"2025-05-12T11:47:23.434925","level":"info","event":"Scraping artikel 4/30 di halaman 1: INEW: BANK ASING JUAL OBLIGASI INDIA AKIBAT KONFLIK","logger":"root"}
+{"timestamp":"2025-05-12T11:47:23.445568","level":"info","event":"Artikel sudah ada di database: INEW: BANK ASING JUAL OBLIGASI INDIA AKIBAT KONFLIK","logger":"root"}
+{"timestamp":"2025-05-12T11:47:25.446102","level":"info","event":"Scraping artikel 5/30 di halaman 1: EKOM: IHSG SESI II DITUTUP MENGUAT 5 POIN KE LEVEL 6.832","logger":"root"}
+{"timestamp":"2025-05-12T11:47:25.453967","level":"info","event":"Artikel sudah ada di database: EKOM: IHSG SESI II DITUTUP MENGUAT 5 POIN KE LEVEL 6.832","logger":"root"}
+{"timestamp":"2025-05-12T11:47:27.458102","level":"info","event":"Scraping artikel 6/30 di halaman 1: EKOM: BI PETAKAN DAN GALI INVESTASI POTENSIAL GENJOT EKONOMI DI BALI","logger":"root"}
+{"timestamp":"2025-05-12T11:47:27.471638","level":"info","event":"Artikel sudah ada di database: EKOM: BI PETAKAN DAN GALI INVESTASI POTENSIAL GENJOT EKONOMI DI BALI","logger":"root"}
+{"timestamp":"2025-05-12T11:47:29.475654","level":"info","event":"Scraping artikel 7/30 di halaman 1: EKOM: PERTAMINA SUKSES CETAK 40 PEMIMPIN PEREMPUAN","logger":"root"}
+{"timestamp":"2025-05-12T11:47:29.487453","level":"info","event":"Artikel sudah ada di database: EKOM: PERTAMINA SUKSES CETAK 40 PEMIMPIN PEREMPUAN","logger":"root"}
+{"timestamp":"2025-05-12T11:47:31.493136","level":"info","event":"Scraping artikel 8/30 di halaman 1: EKOM: ANGGOTA DPR DUKUNG PENINGKATAN PRODUKSI MIGAS NASIONAL","logger":"root"}
+{"timestamp":"2025-05-12T11:47:31.547182","level":"info","event":"Artikel sudah ada di database: EKOM: ANGGOTA DPR DUKUNG PENINGKATAN PRODUKSI MIGAS NASIONAL","logger":"root"}
+{"timestamp":"2025-05-12T11:47:33.547713","level":"info","event":"Scraping artikel 9/30 di halaman 1: EKOM: OJK: MODAL ASING KELUAR PASAR SAHAM RI RP50,72 TRILIUN HINGGA APRIL","logger":"root"}
+{"timestamp":"2025-05-12T11:47:33.553895","level":"info","event":"Artikel sudah ada di database: EKOM: OJK: MODAL ASING KELUAR PASAR SAHAM RI RP50,72 TRILIUN HINGGA APRIL","logger":"root"}
+{"timestamp":"2025-05-12T11:47:35.554447","level":"info","event":"Scraping artikel 10/30 di halaman 1: EKOM: MIND ID BERSINERGI DENGAN PERGURUAN TINGGI GUNA DORONG HILIRISASI","logger":"root"}
+{"timestamp":"2025-05-12T11:47:35.560272","level":"info","event":"Artikel sudah ada di database: EKOM: MIND ID BERSINERGI DENGAN PERGURUAN TINGGI GUNA DORONG HILIRISASI","logger":"root"}
+{"timestamp":"2025-05-12T11:47:37.560793","level":"info","event":"Scraping artikel 11/30 di halaman 1: INEW: INVESTOR TETAP OPTIMIS, IMBAL HASIL OBLIGASI AS BERGERAK","logger":"root"}
+{"timestamp":"2025-05-12T11:47:37.567881","level":"info","event":"Artikel sudah ada di database: INEW: INVESTOR TETAP OPTIMIS, IMBAL HASIL OBLIGASI AS BERGERAK","logger":"root"}
+{"timestamp":"2025-05-12T11:47:40.362789","level":"info","event":"Scraping artikel 12/30 di halaman 1: EKOM: INDONESIA BERENCANA KURANGI IMPOR BBM DARI SINGAPURA","logger":"root"}
+{"timestamp":"2025-05-12T11:47:42.275837","level":"info","event":"Artikel sudah ada di database: EKOM: INDONESIA BERENCANA KURANGI IMPOR BBM DARI SINGAPURA","logger":"root"}
+{"timestamp":"2025-05-12T11:47:44.280473","level":"info","event":"Scraping artikel 13/30 di halaman 1: EKOM: JELANG LIBUR WAISAK, ASDP IMBAU PENGGUNA JASA BELI TIKET ONLINE","logger":"root"}
+{"timestamp":"2025-05-12T11:47:59.806957","level":"info","event":"Artikel sudah ada di database: EKOM: JELANG LIBUR WAISAK, ASDP IMBAU PENGGUNA JASA BELI TIKET ONLINE","logger":"root"}
+{"timestamp":"2025-05-12T11:48:01.830268","level":"info","event":"Scraping artikel 14/30 di halaman 1: EKOM: MENTERI PU: SEKTOR INFRASTRUKTUR BERPERAN PENTING TURUNKAN NILAI ICOR","logger":"root"}
+{"timestamp":"2025-05-12T11:48:06.292631Z","level":"critical","event":"Process terminated by signal. For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#TaskRunner-killed","signal":-9,"signal_name":"SIGKILL","logger":"task"}

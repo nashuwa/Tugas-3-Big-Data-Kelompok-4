@@ -1,0 +1,18 @@
+{"timestamp":"2025-05-13T11:56:23.140539","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-13T11:56:23.248446","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-13T11:56:34.302351Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-13T11:56:34.305093Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-13T11:56:34.316724Z","level":"info","event":"Current task name:scrape_market","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-13T11:56:34.317398Z","level":"info","event":"Dag name:market_scraping","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-13T11:56:34.070390","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-13T11:56:34.551738","level":"info","event":"Connection Retrieved 'mongodb_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-13T11:56:59.183698","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-13T11:56:59.183937","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-13T11:56:59.184004","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-13T11:56:59.184186","level":"error","event":"Error saat membuat driver: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location\n","logger":"root"}
+{"timestamp":"2025-05-13T11:56:59.184323","level":"error","event":"Error fatal saat menjalankan scraping: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location\n","logger":"root"}
+{"timestamp":"2025-05-13T11:56:59.184462","level":"info","event":"✅ Scraping selesai.","logger":"root"}
+{"timestamp":"2025-05-13T11:56:59.186618","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-13T11:56:59.600056Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-13T11:56:59.699780Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-13T11:56:59.710291Z","level":"info","event":"Task operator:<Task(PythonOperator): scrape_market>","chan":"stdout","logger":"task"}

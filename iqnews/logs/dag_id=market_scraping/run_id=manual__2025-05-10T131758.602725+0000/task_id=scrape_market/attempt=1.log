@@ -1,0 +1,15 @@
+{"timestamp":"2025-05-10T13:24:06.620179","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-10T13:24:06.650214","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-10T13:24:38.976256","level":"error","event":"Process timed out, PID: 435","logger":"airflow.utils.timeout.TimeoutPosix"}
+{"timestamp":"2025-05-10T13:24:39.422782","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-10T13:25:09.392034Z","level":"error","event":"Exception ignored in: <function WeakKeyDictionary.__init__.<locals>.remove at 0x7ff3e4b53e20>","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.421161Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.441132Z","level":"error","event":"  File \"/usr/local/lib/python3.12/weakref.py\", line 369, in remove","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.441932Z","level":"error","event":"    def remove(k, selfref=ref(self)):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.442438Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.442893Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py\", line 69, in handle_timeout","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.443278Z","level":"error","event":"    raise AirflowTaskTimeout(self.error_message)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.443647Z","level":"error","event":"airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/scraping_dag.py after 30.0s.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.443994Z","level":"error","event":"Please take a look at these docs to improve your DAG import time:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.444349Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.0/best-practices.html#top-level-python-code","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-10T13:25:09.444723Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.0/best-practices.html#reducing-dag-complexity, PID: 435","chan":"stderr","logger":"task"}

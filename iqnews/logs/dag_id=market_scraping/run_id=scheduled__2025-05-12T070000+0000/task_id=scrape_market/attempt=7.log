@@ -1,0 +1,21 @@
+{"timestamp":"2025-05-12T07:44:43.095364","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-12T07:44:43.098280","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/scraping_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-12T07:44:44.473639Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T07:44:44.474633Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T07:44:44.475723Z","level":"info","event":"Current task name:scrape_market","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T07:44:44.476212Z","level":"info","event":"Dag name:market_scraping","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T07:44:44.339131","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-12T07:44:44.477180","level":"info","event":"Connection Retrieved 'mongodb_conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-12T07:44:47.547028","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T07:44:47.547275","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T07:44:47.547409","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T07:45:09.544020","level":"info","event":"Total halaman yang terdeteksi: 209","logger":"root"}
+{"timestamp":"2025-05-12T07:45:10.087665","level":"info","event":"Scraping halaman 1/209: http://www.iqplus.info/news/market_news/go-to-page,1.html","logger":"root"}
+{"timestamp":"2025-05-12T07:45:13.274713","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T07:45:13.275078","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T07:45:13.275230","level":"warning","event":"Cache folder (/usr/sbin/.cache/selenium) cannot be created: Permission denied (os error 13)","logger":"selenium.webdriver.common.selenium_manager"}
+{"timestamp":"2025-05-12T07:45:35.846299","level":"info","event":"Ditemukan 30 berita di halaman 1","logger":"root"}
+{"timestamp":"2025-05-12T07:45:35.846752","level":"info","event":"Scraping artikel 1/30 di halaman 1: EKOM: OJK CATAT 24 EMITEN BUYBACK SAHAM TANPA RUPS SENILAI Rp937,42 MILIAR","logger":"root"}
+{"timestamp":"2025-05-12T07:45:36.132080","level":"info","event":"Artikel sudah ada di database: EKOM: OJK CATAT 24 EMITEN BUYBACK SAHAM TANPA RUPS SENILAI Rp937,42 MILIAR","logger":"root"}
+{"timestamp":"2025-05-12T07:45:38.143598","level":"info","event":"Scraping artikel 2/30 di halaman 1: EKOM: KEMENPERIN PERCEPAT DEKARBONISASI INDUSTRI MENUJU TARGET NZE","logger":"root"}
+{"timestamp":"2025-05-12T07:45:38.159022","level":"info","event":"Artikel sudah ada di database: EKOM: KEMENPERIN PERCEPAT DEKARBONISASI INDUSTRI MENUJU TARGET NZE","logger":"root"}
