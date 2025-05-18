@@ -1,0 +1,70 @@
+Download started at: 2025-05-12 10:38:48.919331
+Total companies to process: 12
+
+[1/12] Company: AADI
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/AADI/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[2/12] Company: AALI
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/AALI/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[3/12] Company: ABBA
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ABBA/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[4/12] Company: ABDA
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ABDA/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[5/12] Company: ABMM
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ABMM/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[6/12] Company: ACES
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ACES/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[7/12] Company: ACRO
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ACRO/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[8/12] Company: ACST
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ACST/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[9/12] Company: ADCP
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ADCP/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[10/12] Company: ADES
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ADES/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[11/12] Company: ADHI
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ADHI/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+[12/12] Company: ADMF
+URL: https://www.idx.co.id/Portals/0/StaticData/ListedCompanies/Corporate_Actions/New_Info_JSX/Jenis_Informasi/01_Laporan_Keuangan/02_Soft_Copy_Laporan_Keuangan//Laporan%20Keuangan%20Tahun%202025/TW1/ADMF/instance.zip
+Status: Failed initial HTTP 403. Trying Selenium fallback...
+Status: Selenium fallback successful
+--------------------------------------------------
+
+Download Summary:
+----------------
+Total companies: 12
+Successful downloads: 12
+Failed downloads: 0
+Completion time: 2025-05-12 10:42:46.726807

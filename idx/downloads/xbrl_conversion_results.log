@@ -1,0 +1,38 @@
+XBRL → JSON mulai: 2025-05-12 10:42:48.746976
+Proses: /opt/airflow/downloads/AADI/AADI_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/AALI/AALI_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ABBA/ABBA_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ABDA/ABDA_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ABMM/ABMM_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ACES/ACES_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ACRO/ACRO_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ACST/ACST_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ADCP/ADCP_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ADES/ADES_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ADHI/ADHI_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Proses: /opt/airflow/downloads/ADMF/ADMF_instance.zip
+Status: SUCCESS
+--------------------------------------------------
+Selesai 2025-05-12 10:42:53.265227 | OK=12 FAIL=0
